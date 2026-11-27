@@ -1,0 +1,37 @@
+name: flutter_food_tracker_app
+description: Record meals and dining expenses with Flutter and Supabase.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.14.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.2.4
+  material_ui: ^1.1.0
+  supabase_flutter: ^2.18.3
+  uuid: ^4.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  http: ^1.6.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/food_logo.png
+    - assets/images/splash_foods.png
+    - assets/fonts/OFL.txt
+    - assets/fonts/MATERIAL_ICONS_NOTICE.txt
+  fonts:
+    - family: Kanit
+      fonts:
+        - asset: assets/fonts/Kanit-Regular.ttf
+        - asset: assets/fonts/Kanit-Medium.ttf
+          weight: 500
+
+
